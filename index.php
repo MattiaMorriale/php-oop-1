@@ -22,19 +22,19 @@ require 'db.php';
     <div class="container-fluid d-flex justify-content-center">
         <div class="my-box pt-5 ">
             <?php
-    /*
+    
             foreach($movies as $movie) {
                 echo "
                 <div class='card my-card'>
                     <div class='card-body'>
                         <h5 class='card-title'>". $movie->title . ", " . $movie->date . "</h5>
-                        <h6 class='card-subtitle mb-2 text-body-secondary'>" . $movie->director?->getDirectorMovie() . "</h6>
+                        <h6 class='card-subtitle mb-2 text-body-secondary'></h6>
                         <p class='card-text'>lorem ipsum dolor et vittrex.</p>
                     </div>
                 </div>
                 ";
             }
-*/
+
             ?>
         </div>
     </div>
