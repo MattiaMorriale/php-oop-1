@@ -4,8 +4,6 @@ require 'db.php';
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,12 +20,12 @@ require 'db.php';
 <body data-bs-theme='dark'>
     
     <div class="container-fluid d-flex justify-content-center">
-        <div class="my-box">
+        <div class="my-box pt-5 ">
             <?php
-
+    /*
             foreach($movies as $movie) {
                 echo "
-                <div class='card'>
+                <div class='card my-card'>
                     <div class='card-body'>
                         <h5 class='card-title'>". $movie->title . ", " . $movie->date . "</h5>
                         <h6 class='card-subtitle mb-2 text-body-secondary'>" . $movie->director?->getDirectorMovie() . "</h6>
@@ -36,7 +34,7 @@ require 'db.php';
                 </div>
                 ";
             }
-
+*/
             ?>
         </div>
     </div>
@@ -44,7 +42,5 @@ require 'db.php';
     <!-- bootscript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   
-    <!-- script -->
-    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
