@@ -4,6 +4,7 @@ class Movie {
 
     public $title;
     public $date;
+    public $director;
 
     /**
      * __construct
@@ -21,7 +22,7 @@ class Movie {
     
     public function getFullMovie() {
     
-        return $this->title . ',' . $this->date . '.';
+        return $this->title . ', ' . $this->date . '. ';
     
     }
 

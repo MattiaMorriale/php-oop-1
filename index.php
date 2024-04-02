@@ -27,7 +27,8 @@ require 'db.php';
         foreach($movies as $movie) {
             echo "
                 <li>
-                    ". $movie->title . ", " . $movie->date . "
+                    ". $movie->title . ", " . $movie->date . "<br>
+                    " . $movie->director?->getDirectorMovie() . "
                 </li>
             ";
         }
