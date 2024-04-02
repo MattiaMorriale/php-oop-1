@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-box {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    gap: 25px;
+}
